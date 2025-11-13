@@ -1,4 +1,4 @@
-# 🚀 Node.js Application Deployment using Docker and Kubernetes (Minikube)
+# Node.js Application Deployment using Docker and Kubernetes (Minikube)
 
 This project demonstrates how to containerize and deploy a Node.js application using **Docker** and **Kubernetes (Minikube)**.
 
