@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dockerproject
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dockerproject
+  template:
+    metadata:
+      labels:
+        app: dockerproject
+    spec:
+      containers:
+        - name: node-project
+          image: forethought:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
